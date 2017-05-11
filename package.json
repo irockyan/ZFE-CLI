@@ -1,0 +1,21 @@
+{
+  "name": "ffe-cli",
+  "version": "1.0.0",
+  "description": "项目脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "zfe": "bin/zfe"
+  },
+  "author": "Zyan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "inquirer": "^3.0.6"
+  }
+}
