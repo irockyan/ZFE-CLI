@@ -1,8 +1,8 @@
 # 安装
 
 ```bash
-git clone https://github.com/jrainlau/scion.git
-cd scion && npm install
+git clone https://github.com/irockyan/ZFE-CLI.git
+cd ZFE-CLI && npm install
 npm link
 ```
 
