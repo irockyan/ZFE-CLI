@@ -24,7 +24,7 @@ program
 program
     .command('list')
     .description('List all the templates')
-    .alias('l')
+    .alias('ls')
     .action(() => {
         require('../command/list')()
     })
