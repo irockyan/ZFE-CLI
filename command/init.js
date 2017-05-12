@@ -25,7 +25,7 @@ module.exports = () => {
         projectName = answer.projectName;
 
     // git命令，远程拉取项目并自定义项目名
-    let cmdStr = `git clone ${gitUrl} ${projectName} && cd ${projectName}`
+    let cmdStr = `git clone ${gitUrl} ${projectName} && cd ${projectName} && rm -rf .git`
 
     console.log(chalk.white('\n 开始生成...'))
 
