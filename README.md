@@ -1,4 +1,6 @@
-# 安装
+# ZFE-CLI
+
+## 安装
 
 ```bash
 git clone https://github.com/irockyan/ZFE-CLI.git
@@ -10,7 +12,11 @@ npm link
 
 `zfe` 查看全部命令
 
-### 指导
+## 为解决问题
+
+1. 如何删除拉到到本地的git文件
+
+## 指导
 
 1. [Jrain](https://segmentfault.com/a/1190000006190814)
 1. [vue-cli](https://github.com/vuejs/vue-cli)
