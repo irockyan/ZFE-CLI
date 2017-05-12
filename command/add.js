@@ -38,8 +38,8 @@ module.exports = () => {
     // 把模板信息写入templates.json
     fs.writeFile(__dirname + '/../templates.json', JSON.stringify(config), 'utf-8', (err) => {
       if (err) console.log(err)
-      console.log(chalk.green('New template added!\n'))
-      console.log(chalk.grey('The last template list is: \n'))
+      console.log(chalk.green('模版已经添加完毕!\n'))
+      console.log(chalk.grey('最新的配置为: \n'))
       console.log(config)
       console.log('\n')
       process.exit()
