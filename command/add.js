@@ -28,9 +28,12 @@ module.exports = () => {
 
   inquirer.prompt(questions).then(function (answers) {
     // 避免重复添加
+    let tepName = answers.TemplateName
     if (!config.tpl[answers.TemplateName]) {
-      config.tpl[answers.TemplateName] = {}
-      config.tpl[answers.TemplateName]['url'] = answers.HttpsUrl.replace(/[\u0000-\u0019]/g, '') // 过滤unicode字符
+      config.tpl.push({
+        name: tepName,
+        url: answers.HttpsUrl.replace(/[\u0000-\u0019]/g, '')
+      })
     } else {
       console.log(chalk.red('Template has already existed!'))
       process.exit()
