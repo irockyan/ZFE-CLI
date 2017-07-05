@@ -12,8 +12,8 @@
   "author": "Zyan",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^1.1.3",
-    "commander": "^2.9.0",
-    "inquirer": "^3.1.0"
+    "chalk": "^2.0.1",
+    "commander": "^2.11.0",
+    "inquirer": "^3.1.1"
   }
 }
